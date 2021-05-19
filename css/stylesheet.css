@@ -1,0 +1,121 @@
+.hr_line{
+	margin: 20px
+  background: black;
+}
+.allignment
+{
+  text-align: right;
+}
+.allignment_2
+{
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.profilemargin
+{
+  margin-top: 45px;
+}
+
+.profilepic
+{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.description
+{
+  word-wrap: normal;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: auto;
+  padding: 5px;
+  background-color: #8ABC7C;
+  border-radius: 20px 0px 0px 15px;
+}
+.container_2
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-left: auto;
+  padding: 20px;
+  background-color: #8ABC7C;
+}
+.profile
+{
+  display: flex;
+  flex-direction: row;
+}
+.content_left
+{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 5%;
+  padding: 5px;
+  background-color: #8ABC7C;
+}
+.content_right
+{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+  margin-left: 5%;
+  padding: 5px;
+  background-color: #BDECB6;
+  border-radius: 15px 0px 0px 0px;
+}
+@media (max-width: 650px)
+{
+  .allignment
+  {
+    text-align: left;
+  }
+  .allignment_2
+  {
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 0%;
+  }
+  .profilemargin
+  {
+    margin-top: 15px;
+
+  }
+  .profilepic
+  {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+
+  }
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+    padding: 5px;
+    background-color: #8ABC7C;
+    border-radius: 20px 0px 0px 15px;
+  }
+  .container_2
+  {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: #8ABC7C;
+  }
+  .profile
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}
